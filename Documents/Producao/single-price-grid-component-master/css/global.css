@@ -1,0 +1,35 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      min-height: 100vh;
+      display: grid;
+      place-content: center;
+
+}
+.container{
+      max-width: 600px;
+      position: relative;
+      border-radius: 1rem;
+      outline: 1 solid #fff;
+      
+ 
+}
+.community{
+      border:1px solid red;
+      
+}
+.cards{
+   display: flex;
+   
+}
+.monthly{
+      width: 50%;
+      background-color:#2bb3b1;
+}
+.why{
+      width: 50%;
+      background-color:#4abebd;
+}
